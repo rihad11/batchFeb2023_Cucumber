@@ -39,6 +39,8 @@ public class TestSteps {
     }
 
  */
+
+
     @Given("user in login page")
     public void user_in_login_page() {
       driver.get("https://www.facebook.com");
@@ -59,7 +61,14 @@ public class TestSteps {
         loginPage.enterCredentials(email,pass);
     }
 
+/*
+    @When("^user enters (.*) and (.*)$")
+    public void user_enters_userddt_and_pass_ddt(String user, String pass) throws InterruptedException {
+        loginPage.enterCredentials(user,pass);
+        Thread.sleep(4000);
+    }
 
+*/
 
 
     @And("user click submit")

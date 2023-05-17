@@ -16,5 +16,17 @@ Feature: login feature
     And user click submit
     Then user successfully login
 
+  @outline
+  Scenario Outline: login test with DDT
+    When user enters "<username>" and "<password>"
+    And user click submit
+    Then user successfully login
+
+    Examples:
+      |username            |    password  |
+      |rakihasanDDT        |    AbcDDT    |
+      |AhmedurMahiDDT      |    MahiDDT   |
+
+
 
 

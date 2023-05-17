@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f555026-088a-4ac4-acab-333317d62c27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CreateAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestRunner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestRunner2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/test.feature" afterDir="false" />
     </list>
@@ -57,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: test">
+  <component name="RunManager" selected="JUnit.TestRunner2">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/test.feature" />
@@ -154,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: test" />
         <item itemvalue="JUnit.TestRunner2" />
         <item itemvalue="Cucumber Java.Scenario: test login 2" />
+        <item itemvalue="Cucumber Java.Feature: test" />
         <item itemvalue="Cucumber Java.Scenario: test login 1" />
         <item itemvalue="Cucumber Java.Scenario: login test with DDT" />
       </list>
