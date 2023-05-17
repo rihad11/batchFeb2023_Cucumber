@@ -8,8 +8,7 @@ import org.junit.runner.RunWith;
         glue = "StepDefinitions",
         monochrome = false,
         plugin = {"pretty", "html:target/reports"},
-        dryRun = false,
-        tags = "@outline"
+        dryRun = false
 )
 public class TestRunner2 {
 }
