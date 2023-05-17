@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8f555026-088a-4ac4-acab-333317d62c27" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestRunner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestRunner2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CreateAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,8 +155,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner2" />
-        <item itemvalue="Cucumber Java.Scenario: test login 2" />
         <item itemvalue="Cucumber Java.Feature: test" />
+        <item itemvalue="Cucumber Java.Scenario: test login 2" />
         <item itemvalue="Cucumber Java.Scenario: test login 1" />
         <item itemvalue="Cucumber Java.Scenario: login test with DDT" />
       </list>
@@ -168,6 +172,17 @@
       <updated>1683710575402</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/batchFeb2023Cucumber$Scenario__check_login_is_successful__1_.ic" NAME="Scenario: check login is successful (1) Coverage Results" MODIFIED="1684176519945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

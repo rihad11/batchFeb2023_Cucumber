@@ -1,12 +1,13 @@
 package pageObjects;
 
+import StepDefinitions.TestRunner2;
 import StepDefinitions.TestSteps;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CreateAccountPage extends TestSteps {
+public class CreateAccountPage extends TestRunner2 {
 
     public CreateAccountPage(WebDriver ldriver){
         driver=ldriver;

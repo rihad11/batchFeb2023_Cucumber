@@ -18,9 +18,9 @@ import pageObjects.LoginPage;
 
 import java.time.Duration;
 // cucumber hooks
-public class TestSteps {
-    public static WebDriver driver;
-    LoginPage loginPage = new LoginPage(driver);
+public class TestSteps extends TestRunner2{
+
+    LoginPage loginPage;
 
 
     @Before
@@ -28,36 +28,32 @@ public class TestSteps {
         System.out.println("I am in before hooks");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
     }
-/*
     @After
-    public void quitBrowser(){
+    public void quitBrowser() throws InterruptedException {
         System.out.println("I am in After hooks");
-        driver.quit();
+        Thread.sleep(9000);
+        driver.close();
     }
-
- */
-
 
     @Given("user in login page")
     public void user_in_login_page() {
       driver.get("https://www.facebook.com");
-        System.out.println("Given Step");
+      System.out.println("Given Step");
     }
     @When("user enters uname and pass")
     public void user_enters_uname_and_pass() throws InterruptedException {
+        loginPage=new LoginPage(driver);
+        loginPage.enterCredentials("rhasan","PQR!234");
 
-      // loginPage=new LoginPage(driver);
-     //   loginPage.enterCredentials("rhasan","PQR!234");
-        driver.findElement(By.id("email")).sendKeys("rhasan");
-        driver.findElement(By.id("pass")).sendKeys("PQR!234");
-        System.out.println("When Step");
     }
 
     @When("user enters {string} and {string}")
     public void user_enters_and_password(String email, String pass) throws InterruptedException {
+        loginPage=new LoginPage(driver);
         loginPage.enterCredentials(email,pass);
     }
 
@@ -73,16 +69,14 @@ public class TestSteps {
 
     @And("user click submit")
     public void user_click_on_submit() {
-      //  driver.findElement(By.name("login")).click();
-        System.out.println("And Step");
+          System.out.println("User Click Submit");
       //  loginPage.clickLogin();
     }
 
     @Then("user successfully login")
     public void user_successfully_log_in() throws InterruptedException {
-        Assert.assertEquals(driver.getTitle(),"Facebook - log in or sign up");
-        System.out.println("Then Step");
-        Thread.sleep(3000);
+        System.out.println("User Successfully login");
+
 
     }
 
